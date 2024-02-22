@@ -10,6 +10,10 @@ docker-compose build
 
 docker-compose run web rake db:create
 
+docker-compose run rake db:migrate
+
+docker-compose run rake db:seed
+
 docker-compose up
 
 ---
