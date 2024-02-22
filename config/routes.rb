@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   # Takehome test part 1 - Common Ancestor route
   get '/common_ancestor', to: 'nodes#common_ancestor'
 
+  # Takehome test part 2 - Birds
+  get '/birds', to: 'birds#index'
+  
   # Defines the root path route ("/")
   # root "posts#index"
 end
